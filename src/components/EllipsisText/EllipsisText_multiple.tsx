@@ -6,7 +6,7 @@ import { Tooltip } from "antd";
 const EllipsisText: React.FC<EllipsisTextProps_multiple> = (props) => {
   const {
     text,
-    rows = 3,
+    rows,
     tooltipProps,
     textClassName,
     textStyle,
